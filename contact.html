@@ -1,0 +1,140 @@
+
+
+<!doctype html>
+<html>
+<head>
+<title>Contact Us</title>
+<link href="style.css" rel="stylesheet">
+<script src="validation.js"></script>
+<script>
+function activestyle()
+{
+
+  document.getElementById('cnt').style.backgroundColor="black";
+}
+</script>
+</head>
+<body onLoad="activestyle()">
+    <div id="main_page">
+  <div id="header">
+      <div id="head">
+       <ul>
+               <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Event.html">Event and Conference</a></li>
+                <li><a href="wedding.html">Wedding</a></li>
+
+         </ul>
+</div>
+         <!-- End of head menu Part-->
+        <div id="mainmenu">
+   <img src="pics\logo1.png" height="30%" width="30%"/>
+          <ul>
+              <li><a href="rooms.html">ROOMS</a></li>
+              <li><a href="facility.html">FACILITIES</a></li>
+              <li><a href="tarrif.html">TARRIF & PACKAGES</a></li>
+              <li><a href="Reservation.html">RESERVATION</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li id="cnt"><a href="#">CONTACT US</a></li>
+         </ul><br>
+
+</div>
+         <!-- End of main menu Part-->
+         </div>
+         <!-- End of Header Part-->
+                  <!-- ****************************-->
+                 <div id="contactcontent">
+	                 <h2 style="color:#CCC; font-style:italic">Enquiry Form</h2>
+                  <form id="form1">
+                  <table border="2" cellpadding="4" cellspacing="8" width="60%" bgcolor="#000000">
+                  <tr>
+                   <td>First Name</td>
+                   <td><input type="text" id="fn" class="textboxformat" onBlur="CheckFn(this.value)"><span id="diserrorFn" style="color:red; text-decoration:blink;"></span></td>
+                   </tr>
+                   <tr>
+                   <td>Last Name</td>
+                   <td><input type="text" id="ln" class="textboxformat" onBlur="CheckLn(this.value)">
+                   <span id="diserrorLn" style="color:red; text-decoration:blink;"></span></td>
+                   </tr>
+                   <tr>
+                   <td>Message</td>
+                   <td><textarea id="mssg" class="address"></textarea></td>
+                   </tr>
+                   <tr>
+                   <td>Postal Address</td>
+                   <td><textarea id="add" class="address"></textarea></td>
+                   </tr>
+                   <tr>
+                   <td>Email</td>
+                   <td><input type="text" id="emailid" class="textboxformat" onBlur="CheckEm(this.value)">
+                    <span id="diserrorEm" style="color:red; text-decoration:blink;"></span></td>
+                   </tr>
+                   <tr>
+                   <td>Contact No</td>
+                   <td><input type="text" id="contact" class="textboxformat" onBlur="CheckC(this.value)">
+                   <span id="diserrorC" style="color:red; text-decoration:blink;"></span></td>
+                   </tr>
+                   <tr>
+                   <td colspan="2" align="center"><input type="button" value="Send" class="buttonStyle" onclick="btnvalidation()">
+                   <input type="reset" name="res" value="Cancel" class="buttonStyle"/></td>
+                   </tr>
+                  </table>
+                  </form>
+                  </div>
+                  <div id="concont">
+                   <h2 style="color:#CCC; font-style:italic">Contact Us</h2>
+                   <table border="1">
+                   <tr>
+                   <td>
+                   <p>Resort 5<sup>*</sup>, Goa - Reservations:</p>
+          <p>Reservations Manager - Mr. Kunal Ailani</p>
+          <p>Mobile : +91 9922996920</p>
+          <p>Phone: +91 832 2267300</p>
+          <p>Fax: +91 832 2267301</p>
+          <p>Mail: reservations@resortrio.com</p>
+          <p>Address: Resort 5<sup>*</sup>, Tambudki, Arpora,</p>
+          <p>Bardez, Goa - 403518, India</p>
+                   </td>
+                   <td valign="top">
+                   <p>Resort 5<sup>*</sup>, Goa - Sales & Marketing :</p>
+          <p>Mr. Kunal Bhavnani </p>
+          <p>GM - Sales & Marketing</p>
+          <p>Mob: +91 7778923611</p>
+          <p>Mail: benny@resortrio.com</p>
+                    </td>
+                    <td valign="top">
+           <p>Resort 5<sup>*</sup>, Goa - Frontoffice Manger:</p>
+          <p>Mr. Namam Dodia  </p>
+          <p>Frontoffice Manger</p>
+          <p>Mob: +91 9033000288</p>
+          <p>Mail: namam@resortfivestar.com</p>
+                    </td>
+                    <td valign="top">
+            <p>Resort 5<sup>*</sup>, Goa - UK :</p>
+
+          <p> Ms. kareena kapoor</p>
+          <p>Mob: + 44 923827976</p>
+          <p>Mail:  kareena@resortfivestar.com</p>
+
+                    </td>
+                   </tr>
+                   </table>
+                 </div>
+  <div id="footer">
+      <div id="backtotop">
+        <a href="#top">To The Top</a>
+        </div>
+         <hr>
+         <small style="color:#999; letter-spacing:2px;">@ 2014 Resort 5<sup>*</sup> All Rights Reserved	-Developed By Chirag Alwani</small>
+         <div class="fl_right">
+       <a href="#"><img src="pics/facebook.png"></a>
+              <a href="#"><img src="pics/Twitter-32.png"></a>
+                     <a href="#"><img src="pics/youtube.png"></a>
+              <a href="#"><img src="pics/google.png"></a>
+                     <a href="#"><img src="pics/link.png"></a>
+       </div>
+  </div>
+  <!-- End Of Footer-->
+         </div>
+                  <!-- End of main_page Part-->
+         </body>
+         </html>
